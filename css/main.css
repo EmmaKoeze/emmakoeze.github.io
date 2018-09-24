@@ -1,0 +1,143 @@
+/* reset styles*/
+
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ }
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* clearfix */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* main page styles */ 
+
+body {
+  height: 100%;
+  font-family: "Courier New", monospace;
+  font-size: .8em;
+  background-color: black;
+  line-height: 1.2em;
+  color: floralwhite;
+}
+
+header {
+  width: 99vw;
+  max-width: 800px;
+  min-width: 270px;
+  margin: 0 auto;
+  font-size: 1.25em;
+  padding: 4rem 0rem .7rem .5rem;
+  box-sizing: border-box;
+}
+
+section {
+  width: 99vw;
+  max-width: 800px;
+  min-width: 270px;
+  margin: 0 auto;
+  border-top: 1px solid floralwhite;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 5px 5px 5px 15px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+li {
+  width: 100%;
+  display: inline-block;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 2em;
+}
+
+span {
+  float: right;
+  display: inline-block;
+}
+
+header a div {
+  box-sizing: border-box;
+  background: url("../images/github-icon.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  background-size: 18px;
+  float: right;
+  padding: 0rem 1.8rem .7rem 0rem;
+  position: relative;
+  bottom: 2px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul li:before {
+  content: "- ";
+}
+
+.book-title {
+  font-style: italic;
+}
+
+.year {
+  width: 70%;
+}
+
+.school {
+  width: 100%;
+}
+
+.name {
+  float: left;
+}
